@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "cmd /c npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    },
+    "fetch": {
+      "command": "cmd /cuvx",
+      "args": ["mcp-server-fetch", "--ignore-robots-txt"]
+    }
+  }
+}
